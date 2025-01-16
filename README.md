@@ -3,6 +3,26 @@
 20221 pavi mazni banici sus sirene
 
 
+# Build Documentation for Simple Calculator
+
+## Prerequisites
+
+Before you can build and run the Simple Calculator, make sure you have the following software installed:
+
+- **Java Development Kit (JDK)**: Version 8 or later.
+- **IDE (Optional)**: Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans) or a text editor like VS Code to write and edit the Java code.
+- **Command Line Tools (Optional)**: If you prefer to build from the command line, ensure you have access to `javac` (Java compiler) and `java` (Java runtime).
+
+### Steps to Build and Run the Application
+
+#### 1. Clone the Repository
+
+To get started, clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/your-username/Mazni-banici
+
+
 # Use Cases for Simple Calculator
 
 ## Use Case 1: Perform Addition
