@@ -111,3 +111,72 @@ The user selects an invalid operation.
 
 **Postconditions**:  
 - The calculator returns to the main menu.
+
+# User Stories for Simple Calculator
+
+## User Story 1: As a User, I want to perform an addition so that I can add two numbers together.
+
+**Acceptance Criteria**:
+- The user can select the addition operation.
+- The user can input two numbers.
+- The calculator displays the correct result of adding the two numbers.
+
+**Example**:
+- User inputs `4` and `6`.
+- The calculator displays `10`.
+
+---
+
+## User Story 2: As a User, I want to perform a subtraction so that I can subtract one number from another.
+
+**Acceptance Criteria**:
+- The user can select the subtraction operation.
+- The user can input two numbers.
+- The calculator displays the correct result of subtracting the second number from the first.
+
+**Example**:
+- User inputs `9` and `3`.
+- The calculator displays `6`.
+
+---
+
+## User Story 3: As a User, I want to perform a multiplication so that I can multiply two numbers.
+
+**Acceptance Criteria**:
+- The user can select the multiplication operation.
+- The user can input two numbers.
+- The calculator displays the correct result of multiplying the two numbers.
+
+**Example**:
+- User inputs `5` and `7`.
+- The calculator displays `35`.
+
+---
+
+## User Story 4: As a User, I want to perform a division so that I can divide one number by another.
+
+**Acceptance Criteria**:
+- The user can select the division operation.
+- The user can input two numbers.
+- The calculator displays the correct result of dividing the first number by the second.
+- If the second number is `0`, the calculator displays an error message "Error: Division by zero is not allowed."
+
+**Example**:
+- User inputs `10` and `2`.
+- The calculator displays `5`.
+
+**Edge Case**:
+- User inputs `10` and `0`.
+- The calculator displays "Error: Division by zero is not allowed."
+
+---
+
+## User Story 5: As a User, I want to select a valid operation so that I can ensure the calculator works as expected.
+
+**Acceptance Criteria**:
+- The user can only select from the four available operations: addition, subtraction, multiplication, and division.
+- If the user selects an invalid operation, the calculator displays "Invalid operation choice."
+
+**Example**:
+- User selects an option not listed (e.g., `5`).
+- The calculator displays "Invalid operation choice."
